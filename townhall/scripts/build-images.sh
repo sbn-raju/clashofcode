@@ -17,9 +17,6 @@ docker build -t codebox/python:3.8 "$PROJECT_DIR/docker/images/python/"
 echo "Building Node.js 18 image..."
 docker build -t codebox/node:18 "$PROJECT_DIR/docker/images/node/"
 
-echo "Building GCC 9 image..."
-docker build -t codebox/gcc:9 "$PROJECT_DIR/docker/images/gcc/"
-
 echo "Building Java 17 image..."
 docker build -t codebox/java:17 "$PROJECT_DIR/docker/images/java/"
 
